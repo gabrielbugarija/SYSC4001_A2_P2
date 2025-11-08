@@ -21,13 +21,11 @@ The implementation progresses through the following stages:
 ---
 
 ## Project Structure
-SYSC4001_A2_P2-main/
-│
-├── Makefile # Build instructions
-├── Process1.cpp # Parent process (creates and manages shared memory)
-├── Process2.cpp # Child process (exec'd from Process1 and interacts with shared memory)
-├── Process1 # Compiled executable
-└── README.md # Project documentation
+- Makefile # Build instructions
+- Process1.cpp # Parent process (creates and manages shared memory)
+- Process2.cpp # Child process (exec'd from Process1 and interacts with shared memory)
+- Process1 # Compiled executable
+- README.md # Project documentation
 
 ---
 
